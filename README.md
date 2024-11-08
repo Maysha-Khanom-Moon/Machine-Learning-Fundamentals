@@ -58,6 +58,7 @@ No Multicollinearity (🚫):
 What it means: The independent variables should not be highly correlated with each other. Multicollinearity occurs when two or more predictors are strongly correlated, which makes it difficult to isolate the individual effect of each variable on the dependent variable.
 Why it’s important: Multicollinearity can lead to large standard errors for regression coefficients, making it difficult to determine the effect of individual variables and weakening the statistical power of the model.
 How to check: Calculate the Variance Inflation Factor (VIF). A VIF greater than 5 (or sometimes 10) is typically a sign of multicollinearity. Correlation matrices can also help spot highly correlated predictors.
+
 These assumptions help ensure that your linear regression model provides valid, reliable, and interpretable results. If any of these assumptions are violated, your model might produce inaccurate predictions or unreliable statistical inferences.
 ```
 <br>
@@ -91,7 +92,7 @@ It does not necessarily imply the result is practically significant or large, ju
 #### 5 methods of building models:
 1. All-in 
 2. Backward Elimination       |
-3. Forward Selection           >  Stepwise Regression
+3. Forward Selection           >  Stepwise Regression --> followed by p value
 4. Bidirectional Elimination  |
 5. Score Comparisonb  
 <br>
