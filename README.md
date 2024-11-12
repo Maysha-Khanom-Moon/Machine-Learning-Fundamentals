@@ -96,6 +96,3 @@ It does not necessarily imply the result is practically significant or large, ju
 4. Bidirectional Elimination  |
 5. Score Comparisonb  
 <br>
-
-
-#### 
