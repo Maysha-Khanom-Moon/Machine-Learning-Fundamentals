@@ -96,3 +96,44 @@ It does not necessarily imply the result is practically significant or large, ju
 4. Bidirectional Elimination  |
 5. Score Comparisonb  
 <br>
+
+
+#### R square
+- Goodness of fit --> greater is better
+- R^2 = 1 - (SS_res / SS_tot)
+    - SS_res = the residual sum of squares (sum of squared differences between actual and predicted values)
+    - SS_tot = the total sum of squares (sum of squared differences between actual values and the mean of actual values)
+
+
+```
+R^2 --> [0, 1]
+
+1.0 --> perfect fit (suspicious)
+~0.9 --> very good
+<0.7 --> not great
+<0.4 --> terrible
+<0 --> model makes no sense for this data
+
+Although it's depends on industry requirement
+```
+
+#### Adjusted R Square
+y = b0 + b1.X1 + b2.X2 <-- + b3.X3
+```
+* if we want to add a new feature then 
+    - SS_res doesn't changes
+    - SS_res will decrease or stay the same (b3 = 0)
+        - because of Ordinary Least Square: SS_res --> min
+
+Adj R^2 = 1 - (1 - R^2) * (n - 1) / (n - k - 1)
+k = no of features
+n = sample size
+```
+
+```
+Adjusted R^2 is a version of R^2 that accounts for the number of predictors in a regression model. 
+It adjusts for model complexity, penalizing the inclusion of irrelevant variables. 
+Unlike regular R^2, which always increases as more predictors are added, 
+adjusted R^2 only increases if a new variable improves the model significantly. 
+This makes it useful for evaluating models by balancing explanatory power with simplicity.
+```
