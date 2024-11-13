@@ -101,6 +101,8 @@ It does not necessarily imply the result is practically significant or large, ju
 #### R square
 - Goodness of fit --> greater is better
 
+- a statistical metric used to measure how well a model fits the data. Specifically, it represents the proportion of the variance in the dependent variable that is predictable from the independent variables.
+
 - R^2 = 1 - (SS_res / SS_tot)
     - SS_res = the residual sum of squares (sum of squared differences between actual and predicted values)
     - SS_tot = the total sum of squares (sum of squared differences between actual values and the mean of actual values)
@@ -138,6 +140,9 @@ Unlike regular R^2, which always increases as more predictors are added,
 adjusted R^2 only increases if a new variable improves the model significantly. 
 This makes it useful for evaluating models by balancing explanatory power with simplicity.
 ```
+
+#### Regularization
+A technique used in the model training process to prevent overfitting by adding a penalty term to the model's cost function, which discourages large coefficients. This helps keep the model simpler and improves its generalization to new data.
 
 
 #### How do I know which regression model to choose for a particular problem/ dataset?
