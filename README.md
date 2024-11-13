@@ -100,6 +100,7 @@ It does not necessarily imply the result is practically significant or large, ju
 
 #### R square
 - Goodness of fit --> greater is better
+
 - R^2 = 1 - (SS_res / SS_tot)
     - SS_res = the residual sum of squares (sum of squared differences between actual and predicted values)
     - SS_tot = the total sum of squares (sum of squared differences between actual values and the mean of actual values)
@@ -137,3 +138,15 @@ Unlike regular R^2, which always increases as more predictors are added,
 adjusted R^2 only increases if a new variable improves the model significantly. 
 This makes it useful for evaluating models by balancing explanatory power with simplicity.
 ```
+
+
+#### How do I know which regression model to choose for a particular problem/ dataset?
+- try all these models then select the best one
+    - which has the most R square value
+    - R^2 = (coefficient of determination) regression score function
+
+- for missing and categorical data --> do preprocessing
+
+- [code templates](https://drive.google.com/drive/folders/1O8vabaxga3ITjCWfwD79Xnyf8RavYuyk)
+
+- [Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html#sklearn.metrics.r2_score)
