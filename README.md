@@ -3,7 +3,25 @@
 2. part - 02: Regression
     - predicting a real value
 
-3. part - 03: 
+    1. Simple Linear Regression
+    2. Multiple Linear Regression
+    3. Polynomial Regression
+    4. Support Vector for Regression (SVR)
+    5. Decision Tree Regression
+    6. Random Forest Regression
+
+
+3. part - 03: Classification
+    - predict a category
+    - feature scaling is typically recommended for most classification models
+
+    1. Logistic Regression
+    2. K-Nearest Neighbors (K-NN)
+    3. Support Vector Machine (SVM)
+    4. Kernel SVM
+    5. Naive Bayes
+    6. Decision Tree Classification
+    7. Random Forest Classification
 
 
 #### Machine Learning process
