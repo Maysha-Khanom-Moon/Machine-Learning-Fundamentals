@@ -173,3 +173,15 @@ A technique used in the model training process to prevent overfitting by adding 
 - [code templates](https://drive.google.com/drive/folders/1O8vabaxga3ITjCWfwD79Xnyf8RavYuyk)
 
 - [Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html#sklearn.metrics.r2_score)
+
+
+#### How do I know which classification model to choose for a particular problem/ dataset?
+- try all these models then select the best one
+    - which has the most accuracy_score
+
+- for missing and categorical data --> do preprocessing
+
+
+- [code templates](https://drive.google.com/drive/folders/1O8vabaxga3ITjCWfwD79Xnyf8RavYuyk)
+
+- [Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#sklearn.metrics.accuracy_score)
