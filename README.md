@@ -185,3 +185,29 @@ A technique used in the model training process to prevent overfitting by adding 
 - [code templates](https://drive.google.com/drive/folders/1O8vabaxga3ITjCWfwD79Xnyf8RavYuyk)
 
 - [Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#sklearn.metrics.accuracy_score)
+
+
+#### Confusion Matrix & Accuracy
+```
+cm = [Actual negative
+      Acutal positive]
+
+cm = [[TF, FP]
+      [FN, TP]]
+
+TN = True Negative
+FP = False Positive
+FN = False Negative
+TP = True Positive
+
+It shows the percentage!
+```
+
+```
+Accuracy Rate, AR = Correct / Total
+                  = (TN + TP) / Total
+
+
+Error Rate, ER = Incorrect / Total
+               = (FP + FN) / Total
+```
