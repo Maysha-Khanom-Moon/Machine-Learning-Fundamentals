@@ -245,3 +245,19 @@ but ignores the minority class entirely.
         - TPR (true positive rate) = TP / (TP + FN) --> recall
         - FPR (false positive rate) = FP / (FP + TN)
 </pre>
+
+
+#### CAP
+The Cumulative Accuracy Profile (CAP) evaluates binary classifiers by showing how well the model captures positives (e.g., fraud cases) within a sorted population.
+
+Key Features:
+- Axes: X-axis = proportion of the population, Y-axis = proportion of positives captured.
+
+- Curves: 
+    - Random Line: Captures positives proportionally.
+
+    - Perfect Model: Captures all positives immediately.
+
+    - Model Curve: Shows the model's actual performance.
+
+- <b>Goal: A steeper curve closer to the perfect model indicates better performance.</b>
