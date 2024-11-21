@@ -192,15 +192,16 @@ A technique used in the model training process to prevent overfitting by adding 
 cm = [Actual negative
       Acutal positive]
 
-cm = [[TF, FP]
-      [FN, TP]]
+cm =     0   1
+     0 [[TF, FP]
+     1 [FN, TP]]
 
 TN = True Negative
 FP = False Positive
 FN = False Negative
 TP = True Positive
 
-It shows the percentage!
+It shows the percentage (rate)!
 ```
 
 ```
@@ -211,3 +212,36 @@ Accuracy Rate, AR = Correct / Total
 Error Rate, ER = Incorrect / Total
                = (FP + FN) / Total
 ```
+
+#### Accuracy Paradox
+The phenomenon where a model achieves high accuracy but performs poorly, particularly on important or minority classes, due to class imbalance in the dataset.
+
+- In an imbalanced dataset, one class (majority) dominates the other(s).
+- A model that predicts only the majority class can achieve high accuracy without truly understanding or predicting the minority class.
+
+```
+Example
+-------
+In a dataset with 95% negatives and 5% positives,
+predicting only negatives gives 95% accuracy 
+but ignores the minority class entirely.
+```
+<br>
+
+- Solution: Use metrics like Precision, Recall, F1-Score, or ROC-AUC for better evaluation in imbalanced datasets.
+<pre>
+1. Precision: How many predicted positives are actual positives. 
+    - precision = TP / (TP + FP)
+<br>
+2. Recall: How many actual positives are correctly predicted. 
+    - recall = TP / (TP + FN)
+<br>
+3. F1-Score: Balances precision and recall. 
+    - F1-score = 2 * (precision * recall) / (precision + recall)
+<br>
+4. ROC-AUC: Considers true positive and false positive rates.
+    - ROC-AUC: Receiver Operating Characteristic - Area Under Curve
+    - plots TPR vs FPR aka ROC curve shows the trade-off between TPR and FPR
+        - TPR (true positive rate) = TP / (TP + FN) --> recall
+        - FPR (false positive rate) = FP / (FP + TN)
+</pre>
