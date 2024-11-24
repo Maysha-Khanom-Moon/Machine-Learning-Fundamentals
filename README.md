@@ -24,6 +24,12 @@
     7. Random Forest Classification
 
 
+4. part - 04: Clustering
+    - Clustering groups similar data points without labels (unsupervised)
+    - discovering patterns and relationships in datasets
+    - Feature scaling is usually needed for distance-based algorithms
+
+
 #### Machine Learning process
 1. Data pre-processing
     - Import the data
