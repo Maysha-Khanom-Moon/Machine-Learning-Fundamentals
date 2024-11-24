@@ -29,6 +29,8 @@
     - discovering patterns and relationships in datasets
     - Feature scaling is usually needed for distance-based algorithms
 
+    1. K-Means Clustering
+    2. Heirarchical Clustering
 
 #### Machine Learning process
 1. Data pre-processing
