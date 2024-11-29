@@ -1,5 +1,7 @@
 1. Part - 01: Data Preprocessing
 
+<br>
+
 2. part - 02: Regression
     - predicting a real value
 
@@ -10,6 +12,7 @@
     5. Decision Tree Regression
     6. Random Forest Regression
 
+<br>
 
 3. part - 03: Classification
     - predict a category
@@ -23,6 +26,7 @@
     6. Decision Tree Classification
     7. Random Forest Classification
 
+<br>
 
 4. part - 04: Clustering
     - Clustering groups similar data points without labels (unsupervised)
@@ -32,6 +36,7 @@
     1. K-Means Clustering
     2. Heirarchical Clustering
 
+<br>
 
 5. part - 05: Association Rule Learning
     - finds things that often happen together
@@ -40,7 +45,7 @@
     1. Apriori
     2. Eclat
 
-<small>
+<h4>
 
 You have a candy shop and want to know which candies people buy together. Here's what you found:
 
@@ -68,7 +73,7 @@ You ask: "If someone buys chocolate, will they also buy gummies?"
 <b>Conclusion:</b>
 When people buy chocolate, there’s a 67% chance they’ll also buy gummies, but gummies are already popular, so the connection isn’t very strong.
 
-</small>
+</h4>
 
 
 ### Machine Learning process
