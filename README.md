@@ -45,7 +45,7 @@
     1. Apriori
     2. Eclat
 
-<h4>
+<pre>
 
 You have a candy shop and want to know which candies people buy together. Here's what you found:
 
@@ -73,8 +73,10 @@ You ask: "If someone buys chocolate, will they also buy gummies?"
 <b>Conclusion:</b>
 When people buy chocolate, there’s a 67% chance they’ll also buy gummies, but gummies are already popular, so the connection isn’t very strong.
 
-</h4>
+</pre>
 
+<br>
+<br>
 
 ### Machine Learning process
 1. Data pre-processing
@@ -93,6 +95,8 @@ When people buy chocolate, there’s a 67% chance they’ll also buy gummies, bu
 3. Evaluation
     - Calculate performance metrics
     - Make a verdict
+<br>
+
 <br>
 
 ### 5 assumption of Linear Regression
@@ -132,7 +136,7 @@ How to check: Calculate the Variance Inflation Factor (VIF). A VIF greater than 
 These assumptions help ensure that your linear regression model provides valid, reliable, and interpretable results. If any of these assumptions are violated, your model might produce inaccurate predictions or unreliable statistical inferences.
 ```
 <br>
-
+<br>
 
 ### Understanding the p-value
 Statistical significance in the context of the p-value refers to the likelihood that the observed results from a sample are not due to random chance, but rather indicate a real effect or relationship in the population being studied.
@@ -157,14 +161,16 @@ Key Points:
 A statistically significant result (low p-value) means there is enough evidence to suggest a real effect or relationship.
 It does not necessarily imply the result is practically significant or large, just that it is unlikely to have occurred by random chance.
 <br>
+<br>
 
 
-#### 5 methods of building models:
+### 5 methods of building models:
 1. All-in 
 2. Backward Elimination       |
 3. Forward Selection           >  Stepwise Regression --> followed by p value
 4. Bidirectional Elimination  |
 5. Score Comparisonb  
+<br>
 <br>
 
 
@@ -189,6 +195,7 @@ R^2 --> [0, 1]
 
 Although it's depends on industry requirement
 ```
+<br>
 
 ### Adjusted R Square
 y = b0 + b1.X1 + b2.X2 <-- + b3.X3
@@ -210,9 +217,12 @@ Unlike regular R^2, which always increases as more predictors are added,
 adjusted R^2 only increases if a new variable improves the model significantly. 
 This makes it useful for evaluating models by balancing explanatory power with simplicity.
 ```
+<br>
 
 ### Regularization
 A technique used in the model training process to prevent overfitting by adding a penalty term to the model's cost function, which discourages large coefficients. This helps keep the model simpler and improves its generalization to new data.
+<br>
+<br>
 
 
 ### How do I know which regression model to choose for a particular problem/ dataset?
@@ -225,7 +235,7 @@ A technique used in the model training process to prevent overfitting by adding 
 - [code templates](https://drive.google.com/drive/folders/1O8vabaxga3ITjCWfwD79Xnyf8RavYuyk)
 
 - [Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html#sklearn.metrics.r2_score)
-
+<br>
 
 ### How do I know which classification model to choose for a particular problem/ dataset?
 - try all these models then select the best one
@@ -237,6 +247,8 @@ A technique used in the model training process to prevent overfitting by adding 
 - [code templates](https://drive.google.com/drive/folders/1O8vabaxga3ITjCWfwD79Xnyf8RavYuyk)
 
 - [Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#sklearn.metrics.accuracy_score)
+<br>
+<br>
 
 
 ### Confusion Matrix & Accuracy
@@ -264,6 +276,7 @@ Accuracy Rate, AR = Correct / Total
 Error Rate, ER = Incorrect / Total
                = (FP + FN) / Total
 ```
+<br>
 
 ### Accuracy Paradox
 The phenomenon where a model achieves high accuracy but performs poorly, particularly on important or minority classes, due to class imbalance in the dataset.
@@ -297,7 +310,8 @@ but ignores the minority class entirely.
         - TPR (true positive rate) = TP / (TP + FN) --> recall
         - FPR (false positive rate) = FP / (FP + TN)
 </pre>
-
+<br>
+<br>
 
 ### CAP
 The Cumulative Accuracy Profile (CAP) evaluates binary classifiers by showing how well the model captures positives (e.g., fraud cases) within a sorted population.
