@@ -32,6 +32,40 @@
     1. K-Means Clustering
     2. Heirarchical Clustering
 
+
+5. part - 05: Association Rule Learning
+    - finds things that often happen together
+    - discovering secrets about how things are connected!
+
+    1. Apriori
+    2. Eclat
+
+<small>
+You have a candy shop and want to know which candies people buy together. Here's what you found:
+
+Alice: chocolate and gummies
+Bob: chocolate and cookies
+Charlie: gummies and cookies
+David: chocolate, gummies, and cookies
+Emma: gummies
+
+You ask: "If someone buys chocolate, will they also buy gummies?"
+
+Steps:
+------
+Support: Chocolate and gummies were bought together 2 out of 5 times (40%).
+
+Confidence: 2 out of 3 chocolate buyers also bought gummies (67%).
+
+Lift: Buying chocolate increases the chance of buying gummies slightly (0.84).
+
+
+Conclusion:
+-----------
+When people buy chocolate, there’s a 67% chance they’ll also buy gummies, but gummies are already popular, so the connection isn’t very strong.
+</small>
+
+
 #### Machine Learning process
 1. Data pre-processing
     - Import the data
