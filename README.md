@@ -71,7 +71,7 @@ When people buy chocolate, there’s a 67% chance they’ll also buy gummies, bu
 </small>
 
 
-#### Machine Learning process
+### Machine Learning process
 1. Data pre-processing
     - Import the data
     - Clean the data
@@ -90,7 +90,7 @@ When people buy chocolate, there’s a 67% chance they’ll also buy gummies, bu
     - Make a verdict
 <br>
 
-#### 5 assumption of Linear Regression
+### 5 assumption of Linear Regression
 - 📈 Linearity
 - 🔵 independence 
 - 📊 homoscedasticity
@@ -129,7 +129,7 @@ These assumptions help ensure that your linear regression model provides valid, 
 <br>
 
 
-#### Understanding the p-value
+### Understanding the p-value
 Statistical significance in the context of the p-value refers to the likelihood that the observed results from a sample are not due to random chance, but rather indicate a real effect or relationship in the population being studied.
 
 Understanding the p-value:
@@ -163,7 +163,7 @@ It does not necessarily imply the result is practically significant or large, ju
 <br>
 
 
-#### R square
+### R square
 - Goodness of fit --> greater is better
 
 - a statistical metric used to measure how well a model fits the data. Specifically, it represents the proportion of the variance in the dependent variable that is predictable from the independent variables.
@@ -185,7 +185,7 @@ R^2 --> [0, 1]
 Although it's depends on industry requirement
 ```
 
-#### Adjusted R Square
+### Adjusted R Square
 y = b0 + b1.X1 + b2.X2 <-- + b3.X3
 ```
 * if we want to add a new feature then 
@@ -206,11 +206,11 @@ adjusted R^2 only increases if a new variable improves the model significantly.
 This makes it useful for evaluating models by balancing explanatory power with simplicity.
 ```
 
-#### Regularization
+### Regularization
 A technique used in the model training process to prevent overfitting by adding a penalty term to the model's cost function, which discourages large coefficients. This helps keep the model simpler and improves its generalization to new data.
 
 
-#### How do I know which regression model to choose for a particular problem/ dataset?
+### How do I know which regression model to choose for a particular problem/ dataset?
 - try all these models then select the best one
     - which has the most R square value
     - R^2 = (coefficient of determination) regression score function
@@ -222,7 +222,7 @@ A technique used in the model training process to prevent overfitting by adding 
 - [Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html#sklearn.metrics.r2_score)
 
 
-#### How do I know which classification model to choose for a particular problem/ dataset?
+### How do I know which classification model to choose for a particular problem/ dataset?
 - try all these models then select the best one
     - which has the most accuracy_score
 
@@ -234,7 +234,7 @@ A technique used in the model training process to prevent overfitting by adding 
 - [Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#sklearn.metrics.accuracy_score)
 
 
-#### Confusion Matrix & Accuracy
+### Confusion Matrix & Accuracy
 ```
 cm = [Actual negative
       Acutal positive]
@@ -260,7 +260,7 @@ Error Rate, ER = Incorrect / Total
                = (FP + FN) / Total
 ```
 
-#### Accuracy Paradox
+### Accuracy Paradox
 The phenomenon where a model achieves high accuracy but performs poorly, particularly on important or minority classes, due to class imbalance in the dataset.
 
 - In an imbalanced dataset, one class (majority) dominates the other(s).
@@ -294,7 +294,7 @@ but ignores the minority class entirely.
 </pre>
 
 
-#### CAP
+### CAP
 The Cumulative Accuracy Profile (CAP) evaluates binary classifiers by showing how well the model captures positives (e.g., fraud cases) within a sorted population.
 
 Key Features:
