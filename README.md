@@ -49,29 +49,32 @@
 
 You have a candy shop and want to know which candies people buy together. Here's what you found:
 
-<br>
-
 1. Alice: chocolate and gummies
 2. Bob: chocolate and cookies
 3. Charlie: gummies and cookies
 4. David: chocolate, gummies, and cookies
 5. Emma: gummies
 
-<br>
-
 You ask: "If someone buys chocolate, will they also buy gummies?"
 
-<b>Steps:</b>
 
-- Support: Chocolate and gummies were bought together 2 out of 5 times (40%).
+<b>Steps</b>
+----------
+Support: how frequently an itemset appears
+    - Chocolate and gummies were bought together 2 out of 5 times (40%).
 
-- Confidence: 2 out of 3 chocolate buyers also bought gummies (67%).
+Confidence: likelihood that gummies is purchased when chocolate is purchased
+    - 2 out of 3 chocolate buyers also bought gummies (67%).
 
-- Lift: Buying chocolate increases the chance of buying gummies slightly (0.84).
+Lift: more likely someone is to buy gummies when they buy chocolate
+    - Lift = Confidence ÷ Gummies alone
+           = 0.67 ÷ 0.8 = 0.84
+    - Confidence: 67% of chocolate buyers also buy gummies.
+    - Gummies alone: 80% of people bought gummies.
 
 
 <b>Conclusion:</b>
-When people buy chocolate, there’s a 67% chance they’ll also buy gummies, but gummies are already popular, so the connection isn’t very strong.
+Since the lift is less than 1 (0.84), it means buying chocolate doesn't make it more likely to buy gummies because gummies are already popular on their own. If the lift were greater than 1, it would mean chocolate increases the chance of buying gummies.
 
 </pre>
 
