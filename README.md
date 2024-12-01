@@ -38,11 +38,11 @@
 
 <br>
 
-5. part - 05: Association Rule Learning
+5. part - 05: ARL (Association Rule Learning)
     - finds things that often happen together
     - discovering secrets about how things are connected!
 
-    1. Apriori
+    1. Apriori --> more preferable
     2. Eclat
 
 <pre>
