@@ -81,6 +81,29 @@ Since the lift is less than 1 (0.84), it means buying chocolate doesn't make it 
 <br>
 <br>
 
+
+6. part - 06: RL (Reinforcement Learning)
+    - an agent learns by interacting with an environment to achieve a goal. 
+    - The agent takes actions, receives feedback as rewards or penalties, and updates its strategy to maximize long-term rewards.
+
+    1. UCB (Upper Confidence Bound)
+    2. Thompson Sampling
+
+
+<br>
+<br>
+
+
+### Analogy:
+1. Regression --> Prediction 
+2. Classification --> Detection
+3. Clustering --> Grouping / Pattern 
+4. ARL --> Correlation / Dependency
+5. RL --> Optimization
+
+<br>
+<br>
+
 ### Machine Learning process
 1. Data pre-processing
     - Import the data
