@@ -85,10 +85,20 @@ Since the lift is less than 1 (0.84), it means buying chocolate doesn't make it 
 6. part - 06: RL (Reinforcement Learning)
     - an agent learns by interacting with an environment to achieve a goal. 
     - The agent takes actions, receives feedback as rewards or penalties, and updates its strategy to maximize long-term rewards.
+    - game playing, robotics, recommendation systems, and autonomous vehicles.
 
     1. UCB (Upper Confidence Bound)
     2. Thompson Sampling
 
+
+<br>
+<br>
+
+
+7. part - 07: NLP (Natural Language Procession)
+    - to process and understand text and human language
+    - most NLP algorithms are classification models
+    - Bag of Words model --> a common preprocessing technique in NLP
 
 <br>
 <br>
@@ -353,3 +363,19 @@ Key Features:
     - Model Curve: Shows the model's actual performance.
 
 - <b>Goal: A steeper curve closer to the perfect model indicates better performance.</b>
+
+<br>
+
+### Types of Decision Tree algorithms
+1. CART (Classification And Regression Tree):
+    - produces binary trees (two branches per node)
+    - uses the <b>Gini index</b> (for classification) or <b>mean squared error</b> (for regression) to split data
+
+2. ID3: 
+    - uses entropy and information gain for splits
+
+3. C4.5:
+    - An improvement over ID3, handling both <b>numeric and categorical data</b>, supporting <b>pruning</b>, and using <b>gain ratio</b> for splits
+
+
+<br>
