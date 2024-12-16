@@ -100,6 +100,31 @@ Since the lift is less than 1 (0.84), it means buying chocolate doesn't make it 
     - most NLP algorithms are classification models
     - Bag of Words model --> a common preprocessing technique in NLP
 
+    1. Artificial Neural Networks
+    2. Convolution Neural Network
+
+```
+ANN stands for "Artificial Neural Network," which is a broad category of machine learning models inspired by the human brain, while CNN stands for "Convolutional Neural Network," a specific type of ANN particularly well-suited for image recognition tasks due to its "convolution" operation that effectively extracts features from images
+```
+
+
+
+<br>
+<br>
+
+
+8. part - 08: Deep Learning
+    - Geoffrey Hinton --> god father of deep learning
+    <br>
+
+    - uses multi-layered neural networks to automatically learn patterns from large datasets
+    -  improve by adjusting internal parameters through training, without manual feature engineering.
+
+    - examples:
+        - image recognition
+        - speech recognition
+        - natural language processing
+
 <br>
 <br>
 
