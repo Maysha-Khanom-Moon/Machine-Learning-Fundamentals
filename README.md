@@ -104,9 +104,12 @@ Since the lift is less than 1 (0.84), it means buying chocolate doesn't make it 
     2. Convolution Neural Network
 
 ```
-ANN stands for "Artificial Neural Network," which is a broad category of machine learning models inspired by the human brain, while CNN stands for "Convolutional Neural Network," a specific type of ANN particularly well-suited for image recognition tasks due to its "convolution" operation that effectively extracts features from images
+ANN stands for "Artificial Neural Network", 
+which is a broad category of machine learning models inspired by the human brain, 
+while CNN stands for "Convolutional Neural Network," a specific type of ANN 
+particularly well-suited for image recognition tasks due to its "convolution" operation 
+that effectively extracts features from images
 ```
-
 
 
 <br>
@@ -124,6 +127,26 @@ ANN stands for "Artificial Neural Network," which is a broad category of machine
         - image recognition
         - speech recognition
         - natural language processing
+
+```
+ReLU Activation: ReLU (Rectified Linear Unit) in CNNs introduces non-linearity, 
+allowing the network to learn complex patterns in data. It is computationally 
+efficient (max(0, x)), helps avoid the vanishing gradient problem, 
+and creates sparse activations by outputting zero for negative values. 
+This sparsity improves efficiency and reduces overfitting. While it accelerates training convergence, 
+it can suffer from the <b>dying ReLU problem</b>, where neurons stop learning (gradient becomes zero). 
+Variants like Leaky ReLU and PReLU address this limitation. 
+ReLU is widely used due to its simplicity and effectiveness in deep learning.
+
+    - The main limitation of ReLU is the dying ReLU problem, 
+    where some neurons output 0 for all inputs and stop learning because 
+    their gradients become zero. This reduces the network's capacity to learn. 
+    Solutions include using variants like Leaky ReLU (small gradient for negative inputs),
+    PReLU (learnable slope for negatives), or ELU (smooth transitions for negatives), 
+    and applying proper weight initialization methods.
+
+```
+
 
 <br>
 <br>
