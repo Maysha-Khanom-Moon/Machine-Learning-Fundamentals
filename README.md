@@ -172,6 +172,38 @@ There are 2 main approaches:
 <br>
 
 
+10. part - 10: Model Selection & Boosting
+
+    1. k-Fold Cross Validation --> model evaluation and validation technique
+    2. Grid Search --> hyperparameter optimization technique
+
+- XGBoost: one of the most powerful and popular machine learning model
+
+
+<br>
+
+
+### Hyperparameters vs Parameters
+- Hyperparameters: set manually before training (e.g., learning rate, number of layers)
+
+- Parameters: Learned from the data during training (e.g., weights and biases in neural network)
+
+<br>
+<br>
+
+
+### n_jobs = N
+In scikit-learn it used to specify the number of CPU cores to be used for parallel computation during certain operations
+
+- N = -1 --> Uses all available CPU cores for parallel processing.
+- N = 1 --> Uses a single CPU core (no parallelization).
+- N > 1 --> Uses N CPU cores for parallel processing, where N is a positive integer.
+
+
+<br>
+<br>
+
+
 ### Analogy:
 1. Regression --> Prediction 
 2. Classification --> Detection
