@@ -111,7 +111,6 @@ particularly well-suited for image recognition tasks due to its "convolution" op
 that effectively extracts features from images
 ```
 
-
 <br>
 <br>
 
@@ -146,6 +145,27 @@ ReLU is widely used due to its simplicity and effectiveness in deep learning.
     and applying proper weight initialization methods.
 
 ```
+
+
+<br>
+<br>
+
+
+9. part - 09: Dimensionality Reduction
+    - simplifies datasets by reducing the number of features while retaining essential information
+    
+There are 2 main approaches:
+1. feature selection: 
+    - picks the most relevant features
+    - based on variance or correlation
+    - backward elimination, forward elimination, score comparison, etc
+        
+2. feature extraction: 
+    - creates new features by transforming the original ones
+    - pca, lda, kernel pca, qda, etc
+
+<b>Benefits: </b> Faster computation, easier visualization, and improved model performance <br>
+<b>Challenges: </b> Potenial information loss and reduced interpretability
 
 
 <br>
@@ -253,7 +273,10 @@ It does not necessarily imply the result is practically significant or large, ju
 2. Backward Elimination       |
 3. Forward Selection           >  Stepwise Regression --> followed by p value
 4. Bidirectional Elimination  |
-5. Score Comparisonb  
+5. Score Comparisonb 
+
+- it can be done automatically by sklearn algorithm
+
 <br>
 <br>
 
